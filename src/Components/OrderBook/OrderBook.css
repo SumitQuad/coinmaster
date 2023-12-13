@@ -1,0 +1,34 @@
+/* OrderBook.css */
+.order-book {
+   
+  }
+  
+  .order-book h1,h2,h3{
+    color: white;
+  }
+  
+  .order-book table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-book th, .order-book td {
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+  }
+  
+  .order-book tbody tr {
+    margin-bottom: 0px;
+  }
+
+  .recent-trades {
+    margin-top: 20px;
+  }
+
+  /* yourExternalStyles.css */
+tr td:first-child {
+  color: red; /* Set the text color to yellow for the first td in each tr */
+}
+
+  

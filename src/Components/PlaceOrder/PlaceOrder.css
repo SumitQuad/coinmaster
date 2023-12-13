@@ -1,0 +1,96 @@
+/* OrderBook.css */
+.place-order {
+    margin-left : 20px;
+  }
+
+.place-order h1,h2,h3,p {
+ color : white;
+}  
+
+span {
+  color: grey;
+}
+
+.order-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.order-buttons button {
+  padding : 10px 65px 10px 65px;
+}
+
+.buy {
+  background-color: #2EBD85;
+  color : white;
+  font-size: 16px;
+}
+
+.market-limit{
+  display: flex;
+  border: 1px solid grey;
+  justify-content: space-around;
+  font-size: 16px;
+  margin-top: 20px;
+  color:white;
+  padding: 10px 1px 10px 1px ;
+}
+
+.input-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+input[type=text] {
+  padding: 10px !important; 
+  box-sizing: border-box; 
+}
+
+.currency {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+}
+
+.tabs-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-register{
+  margin-top: 20px;
+}
+
+.sign-register button {
+  background-color: #1f252a !important;
+  width : 100%;
+  padding : 10px 1px 10px 1px;
+  color:#3D91F1;
+}
+
+.assest{
+  margin-top: 20px;
+}
+
+.assest-text{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
